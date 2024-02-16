@@ -104,13 +104,13 @@ def initial_domain_ip_cleaning(dirty_string):
     "%X ahnlab hXXp://memesmix.net/media/created/dd0doq.jpg" [I replaced "http" with "hXXP"])
     
     """
-    # ok move the following filtering etc to the above (i.e., above the regex is_ip_addr functions)
+    # move the following filtering etc to the above (i.e., above the regex is_ip_addr functions)
     list_of_strings = dirty_string.split(" ")
     for string in list_of_strings:
         if "http://" in string:
             string = string.split("http://")[-1]
             
-        if "https://" in string:
+        elif "https://" in string:
             string = string.split("https://")[-1]
 
         if "/" in string:
