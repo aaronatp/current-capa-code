@@ -18,6 +18,6 @@ Verbose mode:
 ![image](https://github.com/aaronatp/current-capa-code/assets/58194911/d7dc4ba4-18fb-40ac-951f-94176de27ea4)
 
 # TODO:
-Still need to tidy up the rendering.
+Need to tidy up the rendering.
 Very verbose mode for static analysis.
 Default, verbose, and very verbose modes for dynamic analysis.
